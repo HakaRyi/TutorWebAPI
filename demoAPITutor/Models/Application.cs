@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace demoAPITutor.Models
+﻿namespace demoAPITutor.Models
 {
     public enum Status
     {
@@ -13,10 +11,8 @@ namespace demoAPITutor.Models
         public int UserId { get; set; }
         public User User { get; set; } = null!;
         public string Title { get; set; }
-        public string Content { get; set; } 
+        public string Content { get; set; }
         public DateTime CreatedAt { get; set; }
-        public User User { get; set; } = null!;
         public Status Status { get; set; }
-        public DateTime CreatedAt { get; set; }
     }
 }
